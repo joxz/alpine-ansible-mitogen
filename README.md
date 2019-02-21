@@ -6,6 +6,8 @@ Alpine container with [Ansible](https://ansible.com/) and [Mitogen](https://mito
 
 Awesome [benchmark](https://www.toptechskills.com/ansible-tutorials-courses/speed-up-ansible-playbooks-pipelining-mitogen/) for using Ansible with Mitogen
 
+Based on my [alpine-ansible-py3](https://github.com/joxz/alpine-ansible-py3) [docker image](https://hub.docker.com/r/jones2748/alpine-ansible-py3)
+
 ## Build Image
 
 ### Build from git repository
@@ -27,7 +29,7 @@ $ docker pull jones2748/alpine-ansible-mitogen:latest
 Docker Hub images will be tagged as `jones2748/alpine-ansible-mitogen:latest` and/or with git tags, e.g. `jones2748/alpine-ansible-mitogen:v0.2`
 
 ## Run Image
- 
+
 Run a playbook inside the container:
 
 ```
@@ -46,7 +48,7 @@ $ docker run -it --rm \
 ```
 $ docker run -it --rm alpine-ansible-mitogen:latest version
 ansible 2.7.7
-  config file = None
+  config file = /etc/ansible/ansible.cfg
   configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
   ansible python module location = /usr/lib/python3.6/site-packages/ansible
   executable location = /usr/bin/ansible
