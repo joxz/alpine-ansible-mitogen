@@ -1,0 +1,13 @@
+sudo: required
+services:
+  - docker
+
+script:
+  - make build
+  - make test
+
+
+after_script:
+  - docker images
+  - make inspect | jq .
+  - make history
