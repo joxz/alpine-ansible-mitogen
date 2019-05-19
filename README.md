@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/joxz/alpine-ansible-mitogen.svg?branch=master)](https://travis-ci.org/joxz/alpine-ansible-mitogen)
+[![Build Status](https://dev.azure.com/john-doe1/alpine-ansible-mitogen/_apis/build/status/joxz.alpine-ansible-mitogen?branchName=master)](https://dev.azure.com/john-doe1/alpine-ansible-mitogen/_build/latest?definitionId=4&branchName=master)
 
 # alpine-ansible-mitogen
 
